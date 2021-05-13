@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Lock_font_awesome.svg/1200px-Lock_font_awesome.svg.png" type="image/x-icon"/>
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2>Send a Message</h2>
+                <h3>Enter Your Details</h3>
+                <form id="contact">
+                    <label for="usernname">Name:</label>
+                    <input type="text" id="username" name="username"><br>
+        
+                    <!-- <label for="password">Password:</label>
+                    <input type="password" id="password" name="password"><br> -->
+        
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email"><br>
+        
+                    <label for="phone">Phone:</label>
+                    </select>
+                    <input type="tel" id="phone" name="phone"><br>
+        
+                    <label for="message">Your Message:</label><br>
+                    <textarea name="" id="message" cols="30" rows="4" placeholder="Enter Message"></textarea>
+        
+                    <center><input type="submit" value="Send" onclick= "alert('Message sent Successfully! Thanks for writing to me.'); window.location.href ='https://www.google.com/' ";/></center>
+                </form>
+            </div>
+        </div>
+
+        <!-- <div class="card">
+            <div class="content">
+                <h2>Log In</h2>
+                <h3>Enter the Credentials</h3>
+
+                <form id="contact">      
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email"><br>
+                    
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password"><br>
+        
+                    <center><input type="submit" value="Log in" onclick="alert('You are Registered Successfully!')"/></center>
+                </form>
+            </div>
+        </div> -->
+    </div>
+    
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
+
+    <script src="main.js"></script>
+</body>
+</html>
